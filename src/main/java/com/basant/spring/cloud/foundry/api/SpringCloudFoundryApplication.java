@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringCloudFoundryApplication {
 	
-	@GetMapping("/greeting")
+	@GetMapping("/Welcome to First Openshift Platform")
 	public String greetingMessage() {
-		return "Waoo! Congrats Basanta your application deployed successfully in Pivotal Cloud Foundry ";
+		return "Waoo! Congrats karthik your application deployed successfully in Pivotal Cloud Foundry ";
 	}
 
 	public static void main(String[] args) {
